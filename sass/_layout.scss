@@ -1,0 +1,13 @@
+.main-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: white;
+}
+
+.footer{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
