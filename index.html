@@ -19,28 +19,33 @@
     <link rel="stylesheet" href="./css/style.css" />
     <title>Frontend Mentor | Order summary card</title>
   </head>
-  <body>
+  <body>    
     <main class="container">
       <div class="main-content">
-        <img
-          src="./images/illustration-hero.svg"
-          alt="woman dance"
-          class="main-content__img"
-        />
-        <h1 class="main-content__title">Order Summary</h1>
-        <p class="main-content__text">
-          You can now listen to millions of songs, audiobooks, and podcasts on
-          any device anywhere you like!
-        </p>
-        <div class="plan">
+        <figure class="main-content__img">
           <img
+          src="./images/illustration-hero.svg"
+          alt="woman dance"          
+        />
+        </figure>
+        <div class="main-content__text">
+          <h1>Order Summary</h1>
+          <p>
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+        </div>
+        
+        <div class="plan">          
+          <div class="plan__price">
+            <img
             src="./images/icon-music.svg"
             alt="icon music"
-            class="plan__icon"
           />
-          <div class="plan__price">
+          <div>
             <p>annual plan</p>
             <p>159.99/year</p>
+          </div>            
           </div>
           <a href="#" class="plan__link">Change</a>
         </div>

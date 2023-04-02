@@ -1,13 +1,14 @@
-.main-content{
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color: white;
+@use "./mixins";
+
+.container{  
+    height: 95vh;
+    width: 100%;
+    @include mixins.flex(center);
 }
+
 
 .footer{
     height: 5vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include mixins.flex(center);    
 }
 

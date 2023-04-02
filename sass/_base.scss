@@ -1,13 +1,16 @@
+@use "./mixins";
+
 :root{
     /* Primary */
-    --pale-blue:hsl(225, 100%, 94%);
-    --bright-blue: hsl(245, 75%, 52%);
+    --pale-blue:#e0e8ff;
+    --bright-blue: #3829e0;
+    
 
     /* Neutral */
 
-    --very-pale-blue: hsl(225, 100%, 98%);
-    --desaturated-blue: hsl(224, 23%, 55%);
-    --dark-blue: hsl(223, 47%, 23%);
+    --very-pale-blue: #f5f7ff;
+    --desaturated-blue: #7280a7;
+    --dark-blue: #1f2f56;
 }
 
 *,
@@ -25,15 +28,9 @@ html{
 body{
     min-height: 100vh;
     font-family: 'Red Hat Display', sans-serif;
+    background: var(--pale-blue); 
+    background-image: url(../images/pattern-background-desktop.svg);   
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 95vh;
-    width: 100%;
-    background-image: url(../images/pattern-background-desktop.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
