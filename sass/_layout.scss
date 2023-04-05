@@ -1,0 +1,12 @@
+.main{
+    height: 95vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    justify-content:center;
+}

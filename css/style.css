@@ -20,9 +20,63 @@ html {
 
 body {
   min-height: 100vh;
+  background: #E0E8FF;
   background-image: url(../images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   background-size: 100% 50%;
+}
+
+.main {
+  height: 95vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.section-content__img img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.section-content {
+  display: grid;
+  grid-template-columns: minmax(min-content, 45rem);
+  background-color: white;
+  border-radius: 1rem 1rem 1rem 0;
+}
+.section-content__text {
+  text-align: center;
+  padding: 0 4.8rem;
+}
+.section-content__text h1 {
+  font-size: 2.8rem;
+  line-height: 3.7rem;
+  color: #1F2E55;
+  font-family: "Red Hat Display", "open sans";
+}
+.section-content__text p {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #717FA6;
+  padding: 0 4rem;
+  font-family: "Red Hat Display", "open sans";
+}
+
+.plan {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #F7F9FF;
+}
+.plan__price {
+  display: flex;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

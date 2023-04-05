@@ -1,0 +1,44 @@
+@use "./mixins";
+
+.section-content{
+    display: grid;
+    grid-template-columns: minmax(min-content, 45rem);
+    background-color: white;
+    border-radius: 1rem 1rem 1rem 0;
+
+    &__text{
+         text-align: center;   
+         padding: 0 4.8rem;
+
+        h1{            
+            font-size: 2.8rem;
+            line-height: 3.7rem; 
+            color: #1F2E55;
+            font-family: 'Red Hat Display' , 'open sans';
+            
+        }
+
+        p{
+            font-size: 1.6rem;
+            line-height: 2.6rem;
+            color: #717FA6;
+            padding: 0 4rem;   
+            font-family: 'Red Hat Display' , 'open sans';          
+        }
+       
+    }
+}
+
+.plan{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #F7F9FF;
+
+    &__price{
+        display: flex;
+        align-items: center;
+    }
+
+
+}
