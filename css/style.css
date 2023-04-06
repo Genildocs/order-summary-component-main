@@ -101,7 +101,7 @@ body {
 
 .section-content__img {
   overflow: hidden;
-  border-radius: 1rem 1rem 0 0;
+  border-radius: 2rem 2rem 0 0;
 }
 .section-content__img img {
   width: 100%;
@@ -119,7 +119,7 @@ body {
   grid-template-columns: minmax(min-content, 45rem);
   row-gap: 3rem;
   background-color: white;
-  border-radius: 1rem;
+  border-radius: 2rem;
   text-align: center;
 }
 .section-content__text {
