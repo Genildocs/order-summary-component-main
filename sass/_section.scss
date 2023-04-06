@@ -32,7 +32,7 @@
 }
 
 .plan{
-    display: flex;
+    @include mixins.flex;
     justify-content: space-between;
     align-items: center;
     background: #F7F9FF;
@@ -72,10 +72,12 @@
         font-size: 1.4rem;
         line-height: 1.9rem;
         color: #382AE1;
+        transition: transform 0.5s;
         
 
         &:hover{
             opacity: 0.6;
+            transform: scale(1.1);
         }
 
         &:active{
