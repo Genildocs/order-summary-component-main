@@ -1,0 +1,52 @@
+.main-content {
+    
+  &__btn {
+    margin: 0 4.8rem;
+    padding: 1.5rem 10rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 900;
+    color: white;
+    background: #382ae1;
+    box-shadow: 0px 2rem 2rem rgba(56, 42, 225, 0.190291);
+    border-radius: 1rem;
+    transition: all .3s;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 1.5rem 3rem 0 rgba(0,0,0,0.64);
+
+    &:hover{
+        opacity: 0.7;
+        transform: translateY(-0.5rem) scale(1.01);
+        box-shadow: 0 1.5rem 1.5rem 0 rgba(0,0,0,0.64);
+        
+    }
+
+    &:active{
+        opacity: 1;
+        transform: translateY(0);
+        box-shadow: 0 1.5rem 2.5rem 0 rgba(0,0,0,0.64);
+    }
+  }
+
+  &__link{
+    text-decoration: none;
+    color: #717FA6;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 900;
+    margin-bottom: 4.6rem;
+    transition: transform 0.5s;
+    
+
+    &:hover{
+        opacity: 0.6;
+        transform: scale(1.1);
+    }
+
+    &:active{
+        opacity: 1;
+    }
+  }
+}
